@@ -1,0 +1,6 @@
+devel_space: /home/zft/workspace/src/beginner_tutorials/devel
+install: false
+install_space: /home/zft/workspace/src/beginner_tutorials/install
+profile: default
+source_space: /home/zft/workspace/src/beginner_tutorials/src
+workspace: /home/zft/workspace/src/beginner_tutorials

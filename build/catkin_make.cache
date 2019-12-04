@@ -1,0 +1,2 @@
+beginner_tutorials:learning_communication:offboard_pkg
+-DCATKIN_DEVEL_PREFIX=/home/zft/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/zft/workspace/install -G Unix Makefiles

@@ -1,0 +1,12 @@
+Symlinking /home/zft/workspace/src/beginner_tutorials/devel/./setup.zsh
+Symlinking /home/zft/workspace/src/beginner_tutorials/devel/./local_setup.zsh
+Symlinking /home/zft/workspace/src/beginner_tutorials/devel/./cmake.lock
+Symlinking /home/zft/workspace/src/beginner_tutorials/devel/./_setup_util.py
+Symlinking /home/zft/workspace/src/beginner_tutorials/devel/./setup.bash
+Symlinking /home/zft/workspace/src/beginner_tutorials/devel/./env.sh
+Symlinking /home/zft/workspace/src/beginner_tutorials/devel/./setup.sh
+Symlinking /home/zft/workspace/src/beginner_tutorials/devel/./local_setup.sh
+Symlinking /home/zft/workspace/src/beginner_tutorials/devel/./local_setup.bash
+Symlinking /home/zft/workspace/src/beginner_tutorials/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/zft/workspace/src/beginner_tutorials/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/zft/workspace/src/beginner_tutorials/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
