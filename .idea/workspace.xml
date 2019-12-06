@@ -9,7 +9,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28d0b358-3a7c-4fe3-9a14-6b295983283c" name="Default" comment="" />
+    <list default="true" id="28d0b358-3a7c-4fe3-9a14-6b295983283c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/offboard_pkg/src/offboard_node.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/offboard_pkg/CMakeFiles/offboard_node.dir/src/offboard_node.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/offboard_pkg/CMakeFiles/offboard_node.dir/src/offboard_node.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/lib/offboard_pkg/offboard_node" beforeDir="false" afterPath="$PROJECT_DIR$/devel/lib/offboard_pkg/offboard_node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offboard_pkg/src/offboard_node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/offboard_pkg/src/offboard_node.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/src/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,13 +29,34 @@
       <file leaf-file-name="offboard_node.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/offboard_pkg/src/offboard_node.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="399">
+              <caret line="114" column="31" lean-forward="true" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="offboard_node.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/offboard_pkg/src/offboard_node.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="off.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/offboard_pkg/src/off.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -37,6 +64,7 @@
         <option value="$PROJECT_DIR$/src/beginner_tutorials/src/offb_node.cpp" />
         <option value="$PROJECT_DIR$/src/beginner_tutorials/src/listener.cpp" />
         <option value="$PROJECT_DIR$/src/offboard_pkg/src/off2.cpp" />
+        <option value="$PROJECT_DIR$/src/offboard_pkg/src/offboard_node.h" />
         <option value="$PROJECT_DIR$/src/offboard_pkg/src/offboard_node.cpp" />
       </list>
     </option>
@@ -56,6 +84,7 @@
     <option name="width" value="1398" />
     <option name="height" value="1020" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -129,23 +158,24 @@
       <workItem from="1575260804618" duration="2482000" />
       <workItem from="1575344436025" duration="7805000" />
       <workItem from="1575362773990" duration="653000" />
-      <workItem from="1575441808201" duration="592000" />
+      <workItem from="1575441808201" duration="628000" />
+      <workItem from="1575620209212" duration="2642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17304000" />
+    <option name="totallyTimeSpent" value="19982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18867925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18221024" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CMake" order="7" sideWeight="0.49595687" visible="true" weight="0.32924336" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5040431" side_tool="true" visible="true" weight="0.32924336" />
+      <window_info anchor="bottom" id="CMake" order="7" sideWeight="0.4954178" visible="true" weight="0.32172132" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5045822" side_tool="true" visible="true" weight="0.32172132" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -166,6 +196,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/offboard_pkg/src/offboard_node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/offboard_pkg/src/offboard_node.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1634">
@@ -385,10 +422,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/offboard_pkg/src/offboard_node.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/offboard_pkg/src/offboard_node.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="399">
+          <caret line="114" column="31" lean-forward="true" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
         </state>
       </provider>
     </entry>
