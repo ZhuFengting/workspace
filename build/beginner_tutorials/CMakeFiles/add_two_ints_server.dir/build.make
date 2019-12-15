@@ -43,42 +43,42 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zft/workspace/src
+CMAKE_SOURCE_DIR = /home/zft/workspace/src/beginner_tutorials
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zft/workspace/build
+CMAKE_BINARY_DIR = /home/zft/workspace/build/beginner_tutorials
 
 # Include any dependencies generated for this target.
-include beginner_tutorials/CMakeFiles/add_two_ints_server.dir/depend.make
+include CMakeFiles/add_two_ints_server.dir/depend.make
 
 # Include the progress variables for this target.
-include beginner_tutorials/CMakeFiles/add_two_ints_server.dir/progress.make
+include CMakeFiles/add_two_ints_server.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include beginner_tutorials/CMakeFiles/add_two_ints_server.dir/flags.make
+include CMakeFiles/add_two_ints_server.dir/flags.make
 
-beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o: beginner_tutorials/CMakeFiles/add_two_ints_server.dir/flags.make
-beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o: /home/zft/workspace/src/beginner_tutorials/src/add_two_ints_server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zft/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o"
-	cd /home/zft/workspace/build/beginner_tutorials && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o -c /home/zft/workspace/src/beginner_tutorials/src/add_two_ints_server.cpp
+CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o: CMakeFiles/add_two_ints_server.dir/flags.make
+CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o: /home/zft/workspace/src/beginner_tutorials/src/add_two_ints_server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zft/workspace/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o -c /home/zft/workspace/src/beginner_tutorials/src/add_two_ints_server.cpp
 
-beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.i: cmake_force
+CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.i"
-	cd /home/zft/workspace/build/beginner_tutorials && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zft/workspace/src/beginner_tutorials/src/add_two_ints_server.cpp > CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zft/workspace/src/beginner_tutorials/src/add_two_ints_server.cpp > CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.i
 
-beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s: cmake_force
+CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s"
-	cd /home/zft/workspace/build/beginner_tutorials && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zft/workspace/src/beginner_tutorials/src/add_two_ints_server.cpp -o CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zft/workspace/src/beginner_tutorials/src/add_two_ints_server.cpp -o CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s
 
-beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.requires:
+CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.requires:
 
-.PHONY : beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.requires
+.PHONY : CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.requires
 
-beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.provides: beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.requires
-	$(MAKE) -f beginner_tutorials/CMakeFiles/add_two_ints_server.dir/build.make beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.provides.build
-.PHONY : beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.provides
+CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.provides: CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.requires
+	$(MAKE) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.provides.build
+.PHONY : CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.provides
 
-beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.provides.build: beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o
+CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.provides.build: CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o
 
 
 # Object files for target add_two_ints_server
@@ -88,45 +88,45 @@ add_two_ints_server_OBJECTS = \
 # External object files for target add_two_ints_server
 add_two_ints_server_EXTERNAL_OBJECTS =
 
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: beginner_tutorials/CMakeFiles/add_two_ints_server.dir/build.make
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/libroscpp.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/librosconsole.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/librostime.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/libcpp_common.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server: beginner_tutorials/CMakeFiles/add_two_ints_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zft/workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server"
-	cd /home/zft/workspace/build/beginner_tutorials && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/add_two_ints_server.dir/link.txt --verbose=$(VERBOSE)
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: CMakeFiles/add_two_ints_server.dir/build.make
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/libroscpp.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/librosconsole.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/librostime.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /opt/ros/kinetic/lib/libcpp_common.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server: CMakeFiles/add_two_ints_server.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zft/workspace/build/beginner_tutorials/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/add_two_ints_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-beginner_tutorials/CMakeFiles/add_two_ints_server.dir/build: /home/zft/workspace/devel/lib/beginner_tutorials/add_two_ints_server
+CMakeFiles/add_two_ints_server.dir/build: /home/zft/workspace/devel/.private/beginner_tutorials/lib/beginner_tutorials/add_two_ints_server
 
-.PHONY : beginner_tutorials/CMakeFiles/add_two_ints_server.dir/build
+.PHONY : CMakeFiles/add_two_ints_server.dir/build
 
-beginner_tutorials/CMakeFiles/add_two_ints_server.dir/requires: beginner_tutorials/CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.requires
+CMakeFiles/add_two_ints_server.dir/requires: CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o.requires
 
-.PHONY : beginner_tutorials/CMakeFiles/add_two_ints_server.dir/requires
+.PHONY : CMakeFiles/add_two_ints_server.dir/requires
 
-beginner_tutorials/CMakeFiles/add_two_ints_server.dir/clean:
-	cd /home/zft/workspace/build/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/add_two_ints_server.dir/cmake_clean.cmake
-.PHONY : beginner_tutorials/CMakeFiles/add_two_ints_server.dir/clean
+CMakeFiles/add_two_ints_server.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/add_two_ints_server.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/add_two_ints_server.dir/clean
 
-beginner_tutorials/CMakeFiles/add_two_ints_server.dir/depend:
-	cd /home/zft/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zft/workspace/src /home/zft/workspace/src/beginner_tutorials /home/zft/workspace/build /home/zft/workspace/build/beginner_tutorials /home/zft/workspace/build/beginner_tutorials/CMakeFiles/add_two_ints_server.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : beginner_tutorials/CMakeFiles/add_two_ints_server.dir/depend
+CMakeFiles/add_two_ints_server.dir/depend:
+	cd /home/zft/workspace/build/beginner_tutorials && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zft/workspace/src/beginner_tutorials /home/zft/workspace/src/beginner_tutorials /home/zft/workspace/build/beginner_tutorials /home/zft/workspace/build/beginner_tutorials /home/zft/workspace/build/beginner_tutorials/CMakeFiles/add_two_ints_server.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/add_two_ints_server.dir/depend
 

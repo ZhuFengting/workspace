@@ -1,7 +1,1 @@
-(cl:defpackage beginner_tutorials-msg
-  (:use )
-  (:export
-   "<NUM>"
-   "NUM"
-  ))
-
+/home/zft/workspace/devel/.private/beginner_tutorials/share/common-lisp/ros/beginner_tutorials/msg/_package.lisp

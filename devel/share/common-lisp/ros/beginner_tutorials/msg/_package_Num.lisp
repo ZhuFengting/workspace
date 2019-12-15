@@ -1,4 +1,1 @@
-(cl:in-package beginner_tutorials-msg)
-(cl:export '(NUM-VAL
-          NUM
-))
+/home/zft/workspace/devel/.private/beginner_tutorials/share/common-lisp/ros/beginner_tutorials/msg/_package_Num.lisp

@@ -1,8 +1,1 @@
-
-"use strict";
-
-let AddTwoInts = require('./AddTwoInts.js')
-
-module.exports = {
-  AddTwoInts: AddTwoInts,
-};
+/home/zft/workspace/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/srv/_index.js

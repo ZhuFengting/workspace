@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zft/workspace/devel/include/beginner_tutorials/AddTwoInts.h
+/home/zft/workspace/devel/.private/beginner_tutorials/include/beginner_tutorials/AddTwoInts.h
 ros/service_traits.h
 -
 beginner_tutorials/AddTwoIntsRequest.h
@@ -14,7 +14,7 @@ beginner_tutorials/AddTwoIntsRequest.h
 beginner_tutorials/AddTwoIntsResponse.h
 -
 
-/home/zft/workspace/devel/include/beginner_tutorials/AddTwoIntsRequest.h
+/home/zft/workspace/devel/.private/beginner_tutorials/include/beginner_tutorials/AddTwoIntsRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/zft/workspace/devel/include/beginner_tutorials/AddTwoIntsResponse.h
+/home/zft/workspace/devel/.private/beginner_tutorials/include/beginner_tutorials/AddTwoIntsResponse.h
 string
 -
 vector

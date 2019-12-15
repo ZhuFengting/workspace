@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target offboard[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/offboard.dir/src/offboard.cpp.o[0m
+[ 90%] Built target multi_offboard
+[100%] [32m[1mLinking CXX executable /home/zft/workspace/devel/.private/offboard/lib/offboard/offboard[0m
+[100%] Built target offboard

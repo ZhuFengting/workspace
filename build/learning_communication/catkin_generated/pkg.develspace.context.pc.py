@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "learning_communication"
-PROJECT_SPACE_DIR = "/home/zft/workspace/devel"
+PROJECT_SPACE_DIR = "/home/zft/workspace/devel/.private/learning_communication"
 PROJECT_VERSION = "0.0.0"

@@ -68,7 +68,7 @@ set(learning_communication_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(learning_communication_SOURCE_PREFIX /home/zft/workspace/src/learning_communication)
-  set(learning_communication_DEVEL_PREFIX /home/zft/workspace/devel)
+  set(learning_communication_DEVEL_PREFIX /home/zft/workspace/devel/.private/learning_communication)
   set(learning_communication_INSTALL_PREFIX "")
   set(learning_communication_PREFIX ${learning_communication_DEVEL_PREFIX})
 else()

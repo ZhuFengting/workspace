@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/beginner_tutorials_generate_messages_lisp"
-  "/home/zft/workspace/devel/share/common-lisp/ros/beginner_tutorials/msg/Num.lisp"
-  "/home/zft/workspace/devel/share/common-lisp/ros/beginner_tutorials/srv/AddTwoInts.lisp"
+  "/home/zft/workspace/devel/.private/beginner_tutorials/share/common-lisp/ros/beginner_tutorials/msg/Num.lisp"
+  "/home/zft/workspace/devel/.private/beginner_tutorials/share/common-lisp/ros/beginner_tutorials/srv/AddTwoInts.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,0 +1,6 @@
+[01m[K/home/zft/workspace/src/multi_offboard/src/multi_test.cpp:90:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ }
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/multi.dir/src/multi_test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/multi.dir/all] Error 2
+make: *** [all] Error 2

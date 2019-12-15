@@ -1,8 +1,0 @@
-prefix=/home/zft/workspace/devel
-
-Name: offboard_pkg
-Description: Description of offboard_pkg
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/zft/workspace/devel/lib 
-Requires: 

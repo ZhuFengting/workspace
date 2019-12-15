@@ -68,7 +68,7 @@ set(beginner_tutorials_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(beginner_tutorials_SOURCE_PREFIX /home/zft/workspace/src/beginner_tutorials)
-  set(beginner_tutorials_DEVEL_PREFIX /home/zft/workspace/devel)
+  set(beginner_tutorials_DEVEL_PREFIX /home/zft/workspace/devel/.private/beginner_tutorials)
   set(beginner_tutorials_INSTALL_PREFIX "")
   set(beginner_tutorials_PREFIX ${beginner_tutorials_DEVEL_PREFIX})
 else()
