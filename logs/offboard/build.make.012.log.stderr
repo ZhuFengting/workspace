@@ -1,0 +1,76 @@
+In file included from [01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:18:0[m[K,
+                 from [01m[K/home/zft/workspace/src/offboard/src/main.cpp:5[m[K:
+[01m[K/home/zft/workspace/src/offboard/inc/Multi_formation.hpp:21:25:[m[K [01;35m[Kwarning: [m[Kdefaulted and deleted functions only available with -std=c++11 or -std=gnu++11
+     ~MultiFormation() = default;
+[01;32m[K                         ^[m[K
+In file included from [01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:19:0[m[K,
+                 from [01m[K/home/zft/workspace/src/offboard/src/main.cpp:5[m[K:
+[01m[K/home/zft/workspace/src/offboard/inc/FlightManager.hpp:53:24:[m[K [01;35m[Kwarning: [m[Kdefaulted and deleted functions only available with -std=c++11 or -std=gnu++11
+     ~FlightManager() = default;
+[01;32m[K                        ^[m[K
+In file included from [01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:18:0[m[K,
+                 from [01m[K/home/zft/workspace/src/offboard/src/multi_offboard.cpp:9[m[K:
+[01m[K/home/zft/workspace/src/offboard/inc/Multi_formation.hpp:21:25:[m[K [01;35m[Kwarning: [m[Kdefaulted and deleted functions only available with -std=c++11 or -std=gnu++11
+     ~MultiFormation() = default;
+[01;32m[K                         ^[m[K
+In file included from [01m[K/home/zft/workspace/src/offboard/src/main.cpp:5:0[m[K:
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:38:24:[m[K [01;35m[Kwarning: [m[Kdefaulted and deleted functions only available with -std=c++11 or -std=gnu++11
+     ~MultiOffboard() = default;
+[01;32m[K                        ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:142:24:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     bool is_offboard = false;
+[01;32m[K                        ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:143:21:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     bool is_armed = false;
+[01;32m[K                     ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:144:22:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     bool usv_armed = false;
+[01;32m[K                      ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:152:22:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     int uav_state_ = TAKEOFF;
+[01;32m[K                      ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:153:22:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     int usv_state_ = USA_INIT;
+[01;32m[K                      ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:158:26:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     bool usv5_reached_ = false;
+[01;32m[K                          ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:159:26:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     bool usv6_reached_ = false;
+[01;32m[K                          ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:160:26:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     bool usv7_reached_ = false;
+[01;32m[K                          ^[m[K
+In file included from [01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:19:0[m[K,
+                 from [01m[K/home/zft/workspace/src/offboard/src/multi_offboard.cpp:9[m[K:
+[01m[K/home/zft/workspace/src/offboard/inc/FlightManager.hpp:53:24:[m[K [01;35m[Kwarning: [m[Kdefaulted and deleted functions only available with -std=c++11 or -std=gnu++11
+     ~FlightManager() = default;
+[01;32m[K                        ^[m[K
+In file included from [01m[K/home/zft/workspace/src/offboard/src/multi_offboard.cpp:9:0[m[K:
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:38:24:[m[K [01;35m[Kwarning: [m[Kdefaulted and deleted functions only available with -std=c++11 or -std=gnu++11
+     ~MultiOffboard() = default;
+[01;32m[K                        ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:142:24:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     bool is_offboard = false;
+[01;32m[K                        ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:143:21:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     bool is_armed = false;
+[01;32m[K                     ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:144:22:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     bool usv_armed = false;
+[01;32m[K                      ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:152:22:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     int uav_state_ = TAKEOFF;
+[01;32m[K                      ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:153:22:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     int usv_state_ = USA_INIT;
+[01;32m[K                      ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:158:26:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     bool usv5_reached_ = false;
+[01;32m[K                          ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:159:26:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     bool usv6_reached_ = false;
+[01;32m[K                          ^[m[K
+[01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:160:26:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
+     bool usv7_reached_ = false;
+[01;32m[K                          ^[m[K

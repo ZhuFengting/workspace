@@ -1,0 +1,7 @@
+In file included from [01m[K/home/zft/workspace/src/multi_offboard/src/multi_test.cpp:5:0[m[K:
+[01m[K/home/zft/workspace/src/multi_offboard/src/../include/multi_offboard/multi_test.h:16:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+ }
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/multi.dir/src/multi_test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/multi.dir/all] Error 2
+make: *** [all] Error 2

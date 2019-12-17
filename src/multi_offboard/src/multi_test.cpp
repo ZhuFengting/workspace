@@ -65,6 +65,7 @@ int main (int argc, char **argv) {
         ros::spinOnce();
         rate.sleep();
     }
+
     geometry_msgs::PoseStamped pose1;
     pose1.pose.position.x = 0;
     pose1.pose.position.y = 0;
@@ -102,23 +103,9 @@ int main (int argc, char **argv) {
                 last_request = ros::Time::now();
             }
         }
-
         uav1_local_pos_pub.publish(pose1);
         uav2_local_pos_pub.publish(pose2);
         ros::spinOnce();
         rate.sleep();
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
