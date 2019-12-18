@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target multi[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/multi.dir/src/multi_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/zft/workspace/devel/.private/multi_offboard/lib/multi_offboard/multi[0m
+[100%] Built target multi
