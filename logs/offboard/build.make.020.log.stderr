@@ -1,6 +1,3 @@
-[35m[1mScanning dependencies of target multi_offboard[0m
-[ 20%] Built target offboard
-[ 30%] [32mBuilding CXX object CMakeFiles/multi_offboard.dir/src/multi_offboard.cpp.o[0m
 In file included from [01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:18:0[m[K,
                  from [01m[K/home/zft/workspace/src/offboard/src/multi_offboard.cpp:7[m[K:
 [01m[K/home/zft/workspace/src/offboard/inc/Multi_formation.hpp:21:25:[m[K [01;35m[Kwarning: [m[Kdefaulted and deleted functions only available with -std=c++11 or -std=gnu++11
@@ -39,5 +36,3 @@ In file included from [01m[K/home/zft/workspace/src/offboard/src/multi_offboar
 [01m[K/home/zft/workspace/src/offboard/inc/multi_offboard.hpp:160:26:[m[K [01;35m[Kwarning: [m[Knon-static data member initializers only available with -std=c++11 or -std=gnu++11
      bool usv7_reached_ = false;
 [01;32m[K                          ^[m[K
-[ 40%] [32m[1mLinking CXX executable /home/zft/workspace/devel/.private/offboard/lib/offboard/multi_offboard[0m
-[100%] Built target multi_offboard

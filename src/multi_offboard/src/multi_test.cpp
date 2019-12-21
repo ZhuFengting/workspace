@@ -15,7 +15,7 @@ bool pos_reached(geometry_msgs::PoseStamped current_pos, geometry_msgs::PoseStam
     float err_py = current_pos.pose.position.y - target_pos.pose.position.y;
     float err_pz = current_pos.pose.position.z - target_pos.pose.position.z;
 
-    return sqrt(err_px * err_px + err_py * err_py + err_pz * err_pz) < 2.0f;
+    return sqrt(err_px * err_px + err_py * err_py + err_pz * err_pz) < 3.0f;
 }
 mavros_msgs::State uav1_current_state;
 void uav1_state_cb(const mavros_msgs::State::ConstPtr& msg){
@@ -53,9 +53,9 @@ int main (int argc, char **argv) {
     ros::Subscriber uav1_state_sub = nh.subscribe<mavros_msgs::State>
             ("uav1/mavros/state", 10, uav1_state_cb);
     ros::Subscriber uav2_state_sub = nh.subscribe<mavros_msgs::State>
-            ("uav2/mavros/state", 10, &uav2_state_cb);
+            ("uav2/mavros/state", 10, uav2_state_cb);
     ros::Subscriber uav3_state_sub = nh.subscribe<mavros_msgs::State>
-            ("uav3/mavros/state", 10, &uav3_state_cb);
+            ("uav3/mavros/state", 10, uav3_state_cb);
 
     ros::Subscriber uav1_local_position_sub = nh.subscribe<geometry_msgs::PoseStamped>
             ("uav1/mavros/local_position/pose", 10, uav1_local_pos_cb);
@@ -141,7 +141,7 @@ int main (int argc, char **argv) {
     ros::Time last_request = ros::Time::now();
 
     while (ros::ok()) {
-        if (uav1_current_state.mode != "OFFBOARD" &&uav2_current_state.mode != "OFFBOARD" &&uav3_current_state.mode != "OFFBOARD" &&
+        if (uav1_current_state.mode != "OFFBOARD" ||uav2_current_state.mode != "OFFBOARD" ||uav3_current_state.mode != "OFFBOARD" &&
             (ros::Time::now() - last_request > ros::Duration(5.0))) {
             if (uav1_set_mode_client.call(offb_set_mode) &&uav2_set_mode_client.call(offb_set_mode) &&uav3_set_mode_client.call(offb_set_mode) &&
                 offb_set_mode.response.mode_sent) {
@@ -149,7 +149,7 @@ int main (int argc, char **argv) {
             }
             last_request = ros::Time::now();
         } else {
-            if (!uav1_current_state.armed &&!uav2_current_state.armed &&!uav3_current_state.armed &&
+            if (!uav1_current_state.armed ||!uav2_current_state.armed ||!uav3_current_state.armed &&
                 (ros::Time::now() - last_request > ros::Duration(5.0))) {
                 if (uav1_arming_client.call(arm_cmd) &&uav2_arming_client.call(arm_cmd) &&uav3_arming_client.call(arm_cmd) &&
                     arm_cmd.response.success) {
